@@ -1,16 +1,12 @@
 {
-  "name": "image-minimizer-webpack-plugin",
+  "name": "image-minimizer-webpack-plugin-arm64",
   "version": "3.8.3",
   "description": "Webpack loader and plugin to optimize (compress) images using imagemin",
   "license": "MIT",
-  "repository": "webpack-contrib/image-minimizer-webpack-plugin",
+  "repository": "cybrixsystems/image-minimizer-webpack-plugin",
   "author": "Alexander Krasnoyarov (https://github.com/evilebottnawi)",
-  "homepage": "https://github.com/webpack-contrib/image-minimizer-webpack-plugin",
-  "bugs": "https://github.com/webpack-contrib/image-minimizer-webpack-plugin/issues",
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/webpack"
-  },
+  "homepage": "https://github.com/cybrixsystems/image-minimizer-webpack-plugin",
+  "bugs": "https://github.com/cybrixsystems/image-minimizer-webpack-plugin/issues",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "engines": {
@@ -99,6 +95,7 @@
     "eslint-plugin-markdown": "^3.0.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-unicorn": "^44.0.2",
+    "execa": "^7.2.0",
     "file-loader": "^6.2.0",
     "file-type": "^16.5.3",
     "husky": "^7.0.1",
@@ -106,7 +103,7 @@
     "imagemin": "^8.0.1",
     "imagemin-avif": "^0.1.4",
     "imagemin-gifsicle": "^7.0.0",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-mozjpeg-arm64": "^11.0.0",
     "imagemin-pngquant": "^9.0.1",
     "imagemin-svgo": "^10.0.1",
     "imagemin-webp": "^6.0.0",
@@ -122,7 +119,7 @@
     "sharp": "^0.30.7",
     "standard-version": "^9.5.0",
     "svgo": "^3.0.2",
-    "tempy": "^1.0.1",
+    "tempy": "^3.1.0",
     "typescript": "^4.9.5",
     "url-loader": "^4.1.1",
     "webpack": "^5.88.2"
